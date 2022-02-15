@@ -3,7 +3,7 @@
 ](https://www.jianshu.com/p/d47c4e841027)
 # 手动构建
 ```shell script
-git clone https://github.com/f763180872/xtrabackup-docker.git
+git clone https://github.com/fanxcv/xtrabackup-docker.git
 cd xtrabackup-docker
 docker build -t name .
 ```
