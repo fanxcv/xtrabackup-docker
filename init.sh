@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # 如果用户未设置BASE_DIR，备份会保存在VOLUME中，防止备份丢失
 if [ "$BASE_DIR" = "" ]; then
   export BASE_DIR=/data

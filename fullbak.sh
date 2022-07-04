@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 echo "HAS_FALL_BACK=" > /.backTemp
 cd `dirname $0`
 . ./common.sh

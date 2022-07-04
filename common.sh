@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # docker需要判断环境变量文件是否存在
 if [ -f /dockerenv ];then
