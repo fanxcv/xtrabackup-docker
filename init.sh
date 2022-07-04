@@ -1,6 +1,6 @@
 #!/bin/bash
 # 如果用户未设置BASE_DIR，备份会保存在VOLUME中，防止备份丢失
-if [ ! -d $BASE_DIR ]; then
+if [ "$BASE_DIR" = "" ]; then
   export BASE_DIR=/data
 fi
 
